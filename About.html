@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/bootstrap4-toggle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!---Google_Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!---Navigation-->
+    <header class="Navigation">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2d2d2d" fill-opacity="1"
+                d="M0,96L60,90.7C120,85,240,75,360,90.7C480,107,600,149,720,192C840,235,960,277,1080,272C1200,267,1320,213,1380,186.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2d2d2d" fill-opacity="1"
+                d="M0,32L60,69.3C120,107,240,181,360,181.3C480,181,600,107,720,80C840,53,960,75,1080,106.7C1200,139,1320,181,1380,202.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand " href="#">
+                <img src="images/Logo/Logo.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link my_Effect_Custum" href="index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_Effect_Custum" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle my_Effect_Custum" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu No_Effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item No_Effect_Custum" href="Product.html">product</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Chef.html">chef</a>
+                            <a class="dropdown-item No_Effect_Custum" href="portfolio.html">portfolio</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_Effect_Custum" href="Service.html">Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle my_Effect_Custum" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu No_Effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item No_Effect_Custum" href="Blog_Width.html">Full_width</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Blog-Full-Width.html">Left_Side</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Blog_Right_Side.html">Right_Side</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="Dar_Icon">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                    <label class="custom-control-label" for="darkSwitch"></label>
+                </div>
+                <div class="Full_screen">
+                    <button onclick="openFullscreen();">Click here</button>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+
+    <!---About_Sub_Page-->
+    <div class="About_Us_Sub_Page">
+        <div class="container">
+            <div class="row">
+                <div class="coman_About_Sub_Page">
+                    <div class="col-xl-12">
+                        <div class="Sub_Page_Main_Title">
+                            <h2>about <span class="color">us</span></h2>
+                            <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETURADIPISCING ELIT. DONEC AT LIGULA IN LIGULA
+                                ULTRICESVULPUTATE AT AC SAPIEN. IN JUSTO NEQUE, MALESUADAA LIBERO ET, LOREM IPSUM DOLOR
+                                SIT AMET,CONSECTETUR ADIPISCING ELIT</p>
+                            <div class="contact_Sub_Page_Btn">
+                                <button type="button" class="btn btn-group-lg">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----Team_Section-->
+    <div class="Team_Section">
+        <div class="container">
+            <div class="row">
+                <div class="coman_Cotainer">
+                    <div class="col-xl-3">
+                        <div class="Main_Team_Sec">
+                            <div class="Team_Pic">
+                                <img src="images/Team/t1.jpg" class="img-fluid">
+                            </div>
+                            <div class="Team_Text">
+                                <h4>Hanna Mcallister</h4>
+                                <h6>OWNER</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
+                                    portitor.</p>
+                                <div class="Ream_Contact">
+                                    <a href="Chef.html" target="_new" class="btn btn-group-lg">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="Main_Team_Sec">
+                            <div class="Team_Pic">
+                                <img src="images/Team/t2.jpg" class="img-fluid">
+                            </div>
+                            <div class="Team_Text">
+                                <h4>Hanna Mcallister</h4>
+                                <h6>OWNER</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
+                                    portitor.</p>
+                                <div class="Ream_Contact">
+                                    <a href="Chef.html" target="_new" class="btn btn-group-lg">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="Main_Team_Sec">
+                            <div class="Team_Pic">
+                                <img src="images/Team/t3.jpg" class="img-fluid">
+                            </div>
+                            <div class="Team_Text">
+                                <h4>Hanna Mcallister</h4>
+                                <h6>OWNER</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
+                                    portitor.</p>
+                                <div class="Ream_Contact">
+                                    <a href="Chef.html" target="_new" class="btn btn-group-lg">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="Main_Team_Sec">
+                            <div class="Team_Pic">
+                                <img src="images/Team/t4.jpg" class="img-fluid">
+                            </div>
+                            <div class="Team_Text">
+                                <h4>Hanna Mcallister</h4>
+                                <h6>OWNER</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at
+                                    portitor.</p>
+                                <div class="Ream_Contact">
+                                    <a href="Chef.html" target="_new" class="btn btn-group-lg">read more</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Product-->
+    <div class="Latest_New_Sub_Product">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="Coman_Header">
+                        <h2>Latest <span class="color">product</span></h2>
+                        <div class="round_Effect">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="New_Product_Row">
+                <div class="row">
+                    <div class="Coman_New_Row_In">
+                        <div class="col-xl-3">
+                            <div class="Main_Produt_New">
+                                <div class="Pro_New_Icon">
+                                    <img src="images/Product/p1.png" class="img-fluid">
+                                </div>
+                                <div class="Pro_New_Text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        <u>adipiscing</u>
+                                        elit. Curabitur ut diam etni
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="Main_Produt_New">
+                                <div class="Pro_New_Icon">
+                                    <img src="images/Product/p2.png" class="img-fluid">
+                                </div>
+                                <div class="Pro_New_Text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        <u>adipiscing</u>
+                                        elit. Curabitur ut diam etni
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="Main_Produt_New">
+                                <div class="Pro_New_Icon">
+                                    <img src="images/Product/p3.png" class="img-fluid">
+                                </div>
+                                <div class="Pro_New_Text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        <u>adipiscing</u>
+                                        elit. Curabitur ut diam etni
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <div class="Main_Produt_New">
+                                <div class="Pro_New_Icon">
+                                    <img src="images/Product/p4.png" class="img-fluid">
+                                </div>
+                                <div class="Pro_New_Text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        <u>adipiscing</u>
+                                        elit. Curabitur ut diam etni
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="Custum_New_Add_Row">
+                <div class="row">
+                    <div class="New_Main_Row_Custum">
+                        <div class="col-xl-4">
+                            <div class="Custum_Row_One">
+                                <div class="Custum_Box_One_Row">
+                                    <h4>OUR BAKERY</h4>
+                                    <p>Backery 34568 NY (I.N)</p>
+                                    <p>+91 1345 2535 01</p>
+                                    <p>AbcBack@gmailcom</p>
+                                </div>
+                                <div class="Custum_Bottom_Two_Row">
+                                    <div class="Custum_Bottom_New_Title">
+                                        <h4>OPENING TIMES</h4>
+                                    </div>
+                                    <div class="Custum_New_Row_Nav">
+                                        <div class="Left_New_Row">
+                                            <div class="Left_Row_One">mon</div>
+                                            <div class="Right_Row_One">17:00 to 23:00</div>
+                                        </div>
+
+                                        <div class="Left_New_Row">
+                                            <div class="Left_Row_One">wed</div>
+                                            <div class="Right_Row_One">19:00 to 24:00</div>
+                                        </div>
+
+
+                                        <div class="Left_New_Row">
+                                            <div class="Left_Row_One">thu</div>
+                                            <div class="Right_Row_One">14:00 to 18:00</div>
+                                        </div>
+
+                                        <div class="Left_New_Row">
+                                            <div class="Left_Row_One">fri</div>
+                                            <div class="Right_Row_One">16:00 to 24:00</div>
+                                        </div>
+
+                                        <div class="Left_New_Row">
+                                            <div class="Left_Row_One">sat / sun</div>
+                                            <div class="Right_Row_One">20:00 to 4:00</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4">
+                            <div class="Custum_Row_Twone">
+                                <div class="Custum_Row_Two_Center">
+                                    <h4>CUSTOM</h4>
+                                    <h2>Cakes</h2>
+                                    <a href="#">ASK A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4">
+                            <div class="Custum_Row_Twonee">
+                                <div class="Custum_Row_Two_Center">
+                                    <h4>CUSTOM</h4>
+                                    <h2>Cakes</h2>
+                                    <a href="#">ASK A QUOTE</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!---Staf-->
+    <div class="toatal_Staf_Sec">
+        <div class="container">
+            <div class="row">
+                <div class="coman_Staf_Member">
+                    <div class="col-xl-3">
+                        <div class="main_Staf_One">
+                            <div class="Staf_Left">
+                                <h4>02</h4>
+                            </div>
+                            <div class="Staf_Right">
+                                <p>NUMBER</p>
+                                <p>BAKERY</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="main_Staf_One">
+                            <div class="Staf_Left">
+                                <h4>56</h4>
+                            </div>
+                            <div class="Staf_Right">
+                                <p>NEW FOOD</p>
+                                <p>MENU PASTRY</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="main_Staf_One">
+                            <div class="Staf_Left">
+                                <h4>73</h4>
+                            </div>
+                            <div class="Staf_Right">
+                                <p>YEARS OF</p>
+                                <p>EXPERIENCE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="main_Staf_One">
+                            <div class="Staf_Left">
+                                <h4>14</h4>
+                            </div>
+                            <div class="Staf_Right">
+                                <p>NEW CHEF</p>
+                                <p>IN KITCHEN</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----Menu-->
+    <div class="Latest_Menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="Coman_Header">
+                        <h2>Latest <span class="color">menu</span></h2>
+                        <div class="round_Effect">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Latest_Menu_One">
+                <div class="row">
+                    <div class="Coman_Menu">
+                        <div class="col-xl-6">
+                            <div class="Coman_Menu_Sec">
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m1.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m2.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m3.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m4.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m1.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="Coman_Menu_Sec">
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m1.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m2.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m3.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m4.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="Menu_Box_One">
+                                    <div class="Menu_Pic">
+                                        <img src="images/Menu/m1.jpg" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="Menu_text">
+                                        <h5>cake chokolate <span class="right">$39</span></h5>
+                                        <p>Lorem ipsum dolor sit </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---Footer-->
+    <footer class="Footer_Section">
+        <div class="container">
+            <div class="row">
+                <div class="coman_Footer">
+                    <div class="col-xl-6">
+                        <div class="Footer_One">
+                            <div class="Footer_Top_Title">
+                                <img src="images/Logo/Logo.png" class="img-fluid">
+                            </div>
+                            <div class="Footer_Center">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh
+                                    <u>condimentum</u>
+                                    venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                                </p>
+                            </div>
+                            <div class="Footer_Bottom">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-vine"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-envira"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>About</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>about us</li>
+                                    <li>service</li>
+                                    <li>testimonials</li>
+                                    <li>faq</li>
+                                    <li>payment</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>contacts</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>contact us</li>
+                                    <li>book a table</li>
+                                    <li>cost calc</li>
+                                    <li>our chef</li>
+                                    <li>about us</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>partners</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>wedding</li>
+                                    <li>cake decorator</li>
+                                    <li>restaurant</li>
+                                    <li>coffee shop</li>
+                                    <li>flowers</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="Scroll">
+        <a href="#" class="scrollToTop">
+            <img src="images/scroll-top/coffee-cup.png" class="img-fluid">
+        </a>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/smoke.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery-parallax.js"></script>
+    <script src="js/bootstrap4-toggle.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/dark-mode-switch.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        var elem = document.documentElement;
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) { /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+        }
+    </script>
+
+
+    <script>
+        $(document).mousemove(function (e) {
+            $('.main_Liquid_Scree').parallax(30, e);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('select:not(.ignore)').niceSelect();
+            FastClick.attach(document.body);
+        });    
+    </script>
+    <script>
+        function toggleApiOnSilent() {
+            $('#toggle-silent').bootstrapToggle('on', true);
+        }
+        function toggleApiOffSilent() {
+            $('#toggle-silent').bootstrapToggle('off', true);
+        }
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

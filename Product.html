@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/bootstrap4-toggle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!---Google_Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!---Navigation-->
+    <header class="Navigation">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2d2d2d" fill-opacity="1"
+                d="M0,96L60,90.7C120,85,240,75,360,90.7C480,107,600,149,720,192C840,235,960,277,1080,272C1200,267,1320,213,1380,186.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#2d2d2d" fill-opacity="1"
+                d="M0,32L60,69.3C120,107,240,181,360,181.3C480,181,600,107,720,80C840,53,960,75,1080,106.7C1200,139,1320,181,1380,202.7L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand " href="#">
+                <img src="images/Logo/Logo.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link my_Effect_Custum" href="index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_Effect_Custum" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle my_Effect_Custum" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu No_Effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item No_Effect_Custum" href="Product.html">product</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Chef.html">chef</a>
+                            <a class="dropdown-item No_Effect_Custum" href="portfolio.html">portfolio</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_Effect_Custum" href="Service.html">Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle my_Effect_Custum" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu No_Effect" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item No_Effect_Custum" href="Blog_Width.html">Full_width</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Blog-Full-Width.html">Left_Side</a>
+                            <a class="dropdown-item No_Effect_Custum" href="Blog_Right_Side.html">Right_Side</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="Dar_Icon">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                    <label class="custom-control-label" for="darkSwitch"></label>
+                </div>
+                <div class="Full_screen">
+                    <button onclick="openFullscreen();">Click here</button>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+
+    <!---Product_Sub_Page-->
+    <div class="SubPro_Us_Sub_Page">
+        <div class="container">
+            <div class="row">
+                <div class="coman_SubPro_Sub_Page">
+                    <div class="col-xl-12">
+                        <div class="SubPro_Page_Main_Title_Service">
+                            <h2>our<span class="color">product</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Product_New-->
+    <div class="New_Product_Section">
+        <div class="container">
+            <div class="row">
+                <div class="coman_New_Product">
+                    <div class="col-xl-8">
+                        <div class="New_Product_MainLeft">
+                            <div class="New_Product_MainLeft_One">
+                                <h4>ABOUT US</h4>
+                                <h1>Quality & expertise at your service !</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis egestas suscipit.
+                                    Integer et ligula eu lacus malesuada egestas. Morbi id magna vitae leo sagittis
+                                    lobortis. Aliquam ipsum mi, sollicitudin nec
+                                    <u>venenatis vel, convallis ac libero</u>
+                                    . Aliquam et neque felis. Ut tortor ante, dictum eu mattis a, dignissim sed tellus.
+                                    Nunc non nulla nec magna hendrerit.
+                                </p>
+                            </div>
+                            <div class="New_Product_MainLeft_Two">
+                                <div class="New_Product_MainLeft_Thiree">
+                                    <div class="Left-Product_Image_New_Pro">
+                                        <img src="images/Product/icon-Aerror.png" class="img-fluid">
+                                    </div>
+                                    <div class="Left-Product_Text_New_Pro">
+                                        <h3>Reserve Your : <u>
+                                                <strong>BIRTHDAY</strong>
+                                            </u>
+                                        </h3>
+                                        <p>Pastry and Cakes for your Party !</p>
+                                    </div>
+                                </div>
+                                <div class="New_Product_MainLeft_Four">
+                                    <a href="#">book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="Video_Pic">
+                            <div class="Image_Coffe">
+                                <img src="images/Product/unnamed.png" class="img-fluid">
+                            </div>
+                            <div class="Coffee_Video Coffee_Video_NEW">
+                                <!-- <canvas id="canvas"></canvas> -->
+                                <div class="canvas">
+
+
+                                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100% 100%">
+                                        <defs>
+                                            <clipPath id="smoke-clip" clipPathUnits="objectBoundingBox">
+                                                <path d="
+                                                    M 0.64, 0.99
+                                                    c 0, 0 -0.05, 0.01 -0.14, 0.01
+                                                    c -0.09, 0 -0.14 -0.01 -0.14 -0.01
+                                                    H 0
+                                                    V 0
+                                                    h 1
+                                                    l 0, 0.99
+                                                    L 0.64, 0.99
+                                                    z" />
+                                            </clipPath>
+                                        </defs>
+
+
+                                    </svg>
+
+                                    <video class="video" style="clip-path: url(#smoke-clip);" width="480" height="852"
+                                        src="https://hotlink.tigran.ninja/video/smoke.mp4" muted autoplay loop></video>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Content_Box-->
+    <div class="content_Box_Section">
+        <div class="container">
+            <div class="row">
+                <div class="coman_Content_New">
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c1.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c2.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c3.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c4.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c5.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 pr-0">
+                        <div class="Box_Content_One">
+                            <div class="Box_Content_Pic">
+                                <img src="images/content_box/c6.jpg" class="img-fluid">
+                            </div>
+                            <div class="content_Text_Main">
+                                <div class="content_Text_One">
+                                    <a href="#">Pastry</a>
+                                </div>
+                                <div class="Content_Bottom_Text">
+                                    <ul>
+                                        <li>
+                                            <a href="#">cokkies</a>
+                                        </li>
+                                        <li>
+                                            <div class="plus">
+                                                <a href="#"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Footer-->
+    <footer class="Footer_Section">
+        <div class="container">
+            <div class="row">
+                <div class="coman_Footer">
+                    <div class="col-xl-6">
+                        <div class="Footer_One">
+                            <div class="Footer_Top_Title">
+                                <img src="images/Logo/Logo.png" class="img-fluid">
+                            </div>
+                            <div class="Footer_Center">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh
+                                    <u>condimentum</u>
+                                    venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                                </p>
+                            </div>
+                            <div class="Footer_Bottom">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-vine"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-envira"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>About</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>about us</li>
+                                    <li>service</li>
+                                    <li>testimonials</li>
+                                    <li>faq</li>
+                                    <li>payment</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>contacts</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>contact us</li>
+                                    <li>book a table</li>
+                                    <li>cost calc</li>
+                                    <li>our chef</li>
+                                    <li>about us</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2">
+                        <div class="Footer_Two">
+                            <div class="Footer_Two_Title">
+                                <h4>partners</h4>
+                            </div>
+
+                            <div class="Footer_Two_Bootom">
+                                <ul>
+                                    <li>wedding</li>
+                                    <li>cake decorator</li>
+                                    <li>restaurant</li>
+                                    <li>coffee shop</li>
+                                    <li>flowers</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="Scroll">
+        <a href="#" class="scrollToTop">
+            <img src="images/scroll-top/coffee-cup.png" class="img-fluid">
+        </a>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/smoke.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery-parallax.js"></script>
+    <script src="js/bootstrap4-toggle.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/dark-mode-switch.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        var elem = document.documentElement;
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) { /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        }
+
+        function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+        }
+    </script>
+
+    <script>
+        $(document).mousemove(function (e) {
+            $('.main_Liquid_Scree').parallax(30, e);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('select:not(.ignore)').niceSelect();
+            FastClick.attach(document.body);
+        });    
+    </script>
+    <script>
+        function toggleApiOnSilent() {
+            $('#toggle-silent').bootstrapToggle('on', true);
+        }
+        function toggleApiOffSilent() {
+            $('#toggle-silent').bootstrapToggle('off', true);
+        }
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
